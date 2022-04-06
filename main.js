@@ -400,7 +400,7 @@ afs = Array.from(s);
 		
 				elem = document.createElement('div');
 				elem.innerHTML = item;
-				elem.style = `width: 100%; border: 1px solid; background: seashell; padding: 2px`;
+				elem.style = `width: 100%; border: 1px solid; background: seashell; padding: 2px; font-size: 6px`;
 				hint.append(elem);
 				elem.onclick = push_to_search;
 			
